@@ -9,7 +9,6 @@ let {
 module.exports = (router) => {
 
     router.get('/', async (req, res) => {
-
         try {
             var districts = await getActionTypes(
                 req.query,
